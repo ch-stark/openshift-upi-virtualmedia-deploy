@@ -13,6 +13,8 @@ packages_registry:
   - httpd
   - httpd-tools
   - python3-dns
+  - python3-lxml
+
 
 # Format for podman query when creating disconnected registry
 podman_format_name: !unsafe "{{.Names}}"
